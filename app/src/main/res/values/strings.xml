@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FilesAndSharedPreferencesDemo</string>
+    <string name="invalid_name">Name is invalid</string>
+    <string name="invalid_date" >Invalide date</string>
+    <string name="invalid_email">Email is invalide</string>
+</resources>

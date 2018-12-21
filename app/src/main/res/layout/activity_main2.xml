@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity" android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/showMsg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="24sp"
+        android:layout_weight="5"
+        android:text="Show Message here"/>
+
+
+    <Button
+        android:id="@+id/fromSharedPref"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="get from SharedPref"
+        android:layout_weight="1"
+        android:onClick="getFromSharedPref"/>
+
+    <Button
+        android:id="@+id/fromFiles"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="get from Files"
+        android:layout_weight="1"
+        android:onClick="getFromFiles"/>
+
+    <Button
+        android:id="@+id/fromSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="get from SQLite"
+        android:onClick="getFromSQLite"/>
+
+</LinearLayout>
